@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.row {
+  position: relative;
+}
+
+.read-more {
+  position: absolute;
+  bottom: 1rem;
+}
+
+img {
+  height: 16rem;
+}
